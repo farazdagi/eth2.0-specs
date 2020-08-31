@@ -222,6 +222,9 @@ Defined in [shared/params.config.go](https://github.com/prysmaticlabs/prysm/blob
 
 ### Time parameters
 
+
+Defined in [shared/params.config.go](https://github.com/prysmaticlabs/prysm/blob/c2b94d04ed27f908c4f3bb2850b132c50da63219/shared/params/config.go#L46-L59):
+
 | Name | Value | Unit | Duration |
 | - | - | :-: | :-: |
 | `GENESIS_DELAY` | `uint64(172800)` | seconds | 2 days |
@@ -239,6 +242,8 @@ Defined in [shared/params.config.go](https://github.com/prysmaticlabs/prysm/blob
 
 ### State list lengths
 
+Defined in [shared/params.config.go](https://github.com/prysmaticlabs/prysm/blob/c2b94d04ed27f908c4f3bb2850b132c50da63219/shared/params/config.go#L62-L65):
+
 | Name | Value | Unit | Duration |
 | - | - | :-: | :-: |
 | `EPOCHS_PER_HISTORICAL_VECTOR` | `uint64(2**16)` (= 65,536) | epochs | ~0.8 years |
@@ -247,6 +252,8 @@ Defined in [shared/params.config.go](https://github.com/prysmaticlabs/prysm/blob
 | `VALIDATOR_REGISTRY_LIMIT` | `uint64(2**40)` (= 1,099,511,627,776) | validators |
 
 ### Rewards and penalties
+
+Defined in [shared/params.config.go](https://github.com/prysmaticlabs/prysm/blob/c2b94d04ed27f908c4f3bb2850b132c50da63219/shared/params/config.go#L68-L72):
 
 | Name | Value |
 | - | - |
@@ -260,6 +267,8 @@ Defined in [shared/params.config.go](https://github.com/prysmaticlabs/prysm/blob
 
 ### Max operations per block
 
+Defined in [shared/params.config.go](https://github.com/prysmaticlabs/prysm/blob/c2b94d04ed27f908c4f3bb2850b132c50da63219/shared/params/config.go#L75-L79):
+
 | Name | Value |
 | - | - |
 | `MAX_PROPOSER_SLASHINGS` | `2**4` (= 16) |
@@ -269,6 +278,8 @@ Defined in [shared/params.config.go](https://github.com/prysmaticlabs/prysm/blob
 | `MAX_VOLUNTARY_EXITS` | `2**4` (= 16) |
 
 ### Domain types
+
+Defined in [shared/params.config.go](https://github.com/prysmaticlabs/prysm/blob/c2b94d04ed27f908c4f3bb2850b132c50da63219/shared/params/config.go#L82-L88):
 
 | Name | Value |
 | - | - |
