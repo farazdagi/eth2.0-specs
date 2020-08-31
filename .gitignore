@@ -28,3 +28,4 @@ tests/core/pyspec/test-reports
 tests/core/pyspec/eth2spec/test_results.xml
 
 *.egg-info
+.idea/
