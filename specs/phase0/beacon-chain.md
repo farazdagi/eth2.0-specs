@@ -175,6 +175,8 @@ The following values are (non-configurable) constants used throughout the specif
 | `JUSTIFICATION_BITS_LENGTH` | `uint64(4)` |
 | `ENDIANNESS` | `'little'` |
 
+https://github.com/prysmaticlabs/prysm/blob/c2b94d04ed27f908c4f3bb2850b132c50da63219/shared/params/config.go#L13-L18
+
 ## Configuration
 
 *Note*: The default mainnet configuration values are included here for spec-design purposes. The different configurations for mainnet, testnets, and YAML-based testing can be found in the [`configs/constant_presets`](../../configs) directory. These configurations are updated for releases and may be out of sync during `dev` changes.
