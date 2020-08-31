@@ -163,7 +163,7 @@ We define the following Python custom types for type hinting and readability:
 
 ## Constants
 
-The following values are (non-configurable) constants used throughout the specification and implemented in [shared/params.config.go](https://github.com/prysmaticlabs/prysm/blob/c2b94d04ed27f908c4f3bb2850b132c50da63219/shared/params/config.go#L13-L18).
+The following values are (non-configurable) constants used throughout the specification and are defined in [shared/params.config.go](https://github.com/prysmaticlabs/prysm/blob/c2b94d04ed27f908c4f3bb2850b132c50da63219/shared/params/config.go#L13-L18).
 
 | Name | Value |
 | - | - |
@@ -180,6 +180,8 @@ The following values are (non-configurable) constants used throughout the specif
 *Note*: The default mainnet configuration values are included here for spec-design purposes. The different configurations for mainnet, testnets, and YAML-based testing can be found in the [`configs/constant_presets`](../../configs) directory. These configurations are updated for releases and may be out of sync during `dev` changes.
 
 ### Misc
+
+Defined in [shared/params.config.go](https://github.com/prysmaticlabs/prysm/blob/c2b94d04ed27f908c4f3bb2850b132c50da63219/shared/params/config.go#L21-L33):
 
 | Name | Value |
 | - | - |
@@ -200,6 +202,8 @@ The following values are (non-configurable) constants used throughout the specif
 
 ### Gwei values
 
+Defined in [shared/params.config.go](https://github.com/prysmaticlabs/prysm/blob/c2b94d04ed27f908c4f3bb2850b132c50da63219/shared/params/config.go#L36-L39):
+
 | Name | Value |
 | - | - |
 | `MIN_DEPOSIT_AMOUNT` | `Gwei(2**0 * 10**9)` (= 1,000,000,000) |
@@ -208,6 +212,8 @@ The following values are (non-configurable) constants used throughout the specif
 | `EFFECTIVE_BALANCE_INCREMENT` | `Gwei(2**0 * 10**9)` (= 1,000,000,000) |
 
 ### Initial values
+
+Defined in [shared/params.config.go](https://github.com/prysmaticlabs/prysm/blob/c2b94d04ed27f908c4f3bb2850b132c50da63219/shared/params/config.go#L42-L43):
 
 | Name | Value |
 | - | - |
