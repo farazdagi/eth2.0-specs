@@ -175,7 +175,17 @@ The following values are (non-configurable) constants used throughout the specif
 | `JUSTIFICATION_BITS_LENGTH` | `uint64(4)` |
 | `ENDIANNESS` | `'little'` |
 
-https://github.com/prysmaticlabs/prysm/blob/c2b94d04ed27f908c4f3bb2850b132c50da63219/shared/params/config.go#L13-L18
+[shared/params.config.go](https://github.com/prysmaticlabs/prysm/blob/c2b94d04ed27f908c4f3bb2850b132c50da63219/shared/params/config.go#L13-L18)
+```golang
+// Constants (non-configurable)
+GenesisSlot              uint64 `yaml:"GENESIS_SLOT"`                // GenesisSlot represents the first canonical slot number of the beacon chain.
+GenesisEpoch             uint64 `yaml:"GENESIS_EPOCH"`               // GenesisEpoch represents the first canonical epoch number of the beacon chain.
+FarFutureEpoch           uint64 `yaml:"FAR_FUTURE_EPOCH"`            // FarFutureEpoch represents a epoch extremely far away in the future used as the default penalization slot for validators.
+BaseRewardsPerEpoch      uint64 `yaml:"BASE_REWARDS_PER_EPOCH"`      // BaseRewardsPerEpoch is used to calculate the per epoch rewards.
+DepositContractTreeDepth uint64 `yaml:"DEPOSIT_CONTRACT_TREE_DEPTH"` // DepositContractTreeDepth depth of the Merkle trie of deposits in the validator deposit contract on the PoW chain.
+JustificationBitsLength  uint64 `yaml:"JUSTIFICATION_BITS_LENGTH"`   // JustificationBitsLength used
+
+```
 
 ## Configuration
 
