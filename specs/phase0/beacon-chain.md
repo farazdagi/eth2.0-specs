@@ -324,7 +324,10 @@ class ForkData(Container):
     genesis_validators_root: Root
 ```
 
-Defined in [proto/beacon/p2p/v1/types.proto](https://github.com/prysmaticlabs/prysm/blob/fbe088625aae04b6616250d46452fc0471b4324e/proto/beacon/p2p/v1/types.proto#L89-L94).
+- Defined in [proto/beacon/p2p/v1/types.proto](https://github.com/prysmaticlabs/prysm/blob/fbe088625aae04b6616250d46452fc0471b4324e/proto/beacon/p2p/v1/types.proto#L89-L94).
+- Used in [beacon-chain/core/helpers/signing_root.go:computeForkDataRoot()](https://github.com/prysmaticlabs/prysm/blob/fbe088625aae04b6616250d46452fc0471b4324e/beacon-chain/core/helpers/signing_root.go#L212-L234) which, in turn, is used to:
+  - [beacon-chain/core/helpers/signing_root.go:ComputeDomain()](https://github.com/prysmaticlabs/prysm/blob/fbe088625aae04b6616250d46452fc0471b4324e/beacon-chain/core/helpers/signing_root.go#L173-L202)
+  - [beacon-chain/core/helpers/signing_root.go:ComputeForkDigest()](https://github.com/prysmaticlabs/prysm/blob/fbe088625aae04b6616250d46452fc0471b4324e/beacon-chain/core/helpers/signing_root.go#L236-L253)
 
 #### `Checkpoint`
 
