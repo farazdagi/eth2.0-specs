@@ -310,6 +310,10 @@ class Fork(Container):
     epoch: Epoch  # Epoch of latest fork
 ```
 
+Defined in [proto/beacon/p2p/v1/types.proto](https://github.com/prysmaticlabs/prysm/blob/fbe088625aae04b6616250d46452fc0471b4324e/proto/beacon/p2p/v1/types.proto#L49-L53).
+`Fork` is stored in `BeaconState` [proto/beacon/p2p/v1/types.proto](https://github.com/prysmaticlabs/prysm/blob/fbe088625aae04b6616250d46452fc0471b4324e/proto/beacon/p2p/v1/types.proto#L14).
+See also: [beacon-chain/state/getters.go:Fork()](https://github.com/prysmaticlabs/prysm/blob/fbe088625aae04b6616250d46452fc0471b4324e/beacon-chain/state/getters.go#L265-L299).
+
 #### `ForkData`
 
 ```python
@@ -317,6 +321,8 @@ class ForkData(Container):
     current_version: Version
     genesis_validators_root: Root
 ```
+
+Defined in [proto/beacon/p2p/v1/types.proto](https://github.com/prysmaticlabs/prysm/blob/fbe088625aae04b6616250d46452fc0471b4324e/proto/beacon/p2p/v1/types.proto#L89-L94).
 
 #### `Checkpoint`
 
