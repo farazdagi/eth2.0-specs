@@ -312,7 +312,9 @@ class Fork(Container):
 
 - Defined in [proto/beacon/p2p/v1/types.proto](https://github.com/prysmaticlabs/prysm/blob/fbe088625aae04b6616250d46452fc0471b4324e/proto/beacon/p2p/v1/types.proto#L49-L53).
 - `Fork` is part of [BeaconState](https://github.com/prysmaticlabs/prysm/blob/fbe088625aae04b6616250d46452fc0471b4324e/proto/beacon/p2p/v1/types.proto#L14).
-- See also: [beacon-chain/state/getters.go:Fork()](https://github.com/prysmaticlabs/prysm/blob/fbe088625aae04b6616250d46452fc0471b4324e/beacon-chain/state/getters.go#L265-L299).
+- Access and mutate via:
+  - [beacon-chain/state/getters.go:Fork()](https://github.com/prysmaticlabs/prysm/blob/fbe088625aae04b6616250d46452fc0471b4324e/beacon-chain/state/getters.go#L265-L299).
+  - [beacon-chain/state/setters.go:SetFork()](https://github.com/prysmaticlabs/prysm/blob/fbe088625aae04b6616250d46452fc0471b4324e/beacon-chain/state/setters.go#L69-L84).
 
 #### `ForkData`
 
